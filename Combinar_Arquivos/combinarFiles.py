@@ -32,5 +32,3 @@ def agrupaTodasSheets(df) -> excel:
                 df = df.append(df_aux)
     df.to_excel('Output_Agrupamento_Geral.xlsx',index=False)
 '''
-
-
